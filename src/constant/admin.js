@@ -14,47 +14,48 @@ export const navLinks = [
       name: 'Work',
       href: '#work',
     },
+    { id: 4, name: 'Experience', href: '#experience' },
     {
       id: 4,
       name: 'Contact',
-      href: '#contact',
+      href: '#footer',
     },
   ];
   
-  export const clientReviews = [
-    {
-      id: 1,
-      name: 'Emily Johnson',
-      position: 'Marketing Director at GreenLeaf',
-      img: 'assets/review1.png',
-      review:
-        'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-    },
-    {
-      id: 2,
-      name: 'Mark Rogers',
-      position: 'Founder of TechGear Shop',
-      img: 'assets/review2.png',
-      review:
-        'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    },
-    {
-      id: 3,
-      name: 'John Dohsas',
-      position: 'Project Manager at UrbanTech ',
-      img: 'assets/review3.png',
-      review:
-        'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    },
-    {
-      id: 4,
-      name: 'Ether Smith',
-      position: 'CEO of BrightStar Enterprises',
-      img: 'assets/review4.png',
-      review:
-        'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-    },
-  ];
+  // export const clientReviews = [
+  //   {
+  //     id: 1,
+  //     name: 'Emily Johnson',
+  //     position: 'Marketing Director at GreenLeaf',
+  //     img: 'assets/review1.png',
+  //     review:
+  //       'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+  //   },
+  //   {
+  //     id: 2,
+  //     name: 'Mark Rogers',
+  //     position: 'Founder of TechGear Shop',
+  //     img: 'assets/review2.png',
+  //     review:
+  //       'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+  //   },
+  //   {
+  //     id: 3,
+  //     name: 'John Dohsas',
+  //     position: 'Project Manager at UrbanTech ',
+  //     img: 'assets/review3.png',
+  //     review:
+  //       'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+  //   },
+  //   {
+  //     id: 4,
+  //     name: 'Ether Smith',
+  //     position: 'CEO of BrightStar Enterprises',
+  //     img: 'assets/review4.png',
+  //     review:
+  //       'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+  //   },
+  // ];
   
   export const myProjects = [
     {
@@ -212,29 +213,29 @@ export const navLinks = [
   export const workExperiences = [
     {
       id: 1,
-      name: 'Framer',
-      pos: 'Lead Web Developer',
-      duration: '2022 - Present',
-      title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-      icon: '/assets/framer.svg',
+      name: 'Arolytics',
+      pos: 'Full Stack Software Developer',
+      duration: '2023 - 2024',
+      title: "I contributed to building a methane emissions analysis platform, focusing on user-centric interfaces with React, Redux, styled-components, HTML, CSS, and TailwindCSS. I utilized GIS and visualization tools like React Charts, Mapbox API, and Deck GL for insightful visualizations. On the backend, I developed automation scripts and RESTful APIs using Python, Node.js, and Java, optimizing performance. I also designed efficient NoSQL schemas in MongoDB, improving query performance for large datasets.",
+      icon: '/assets/Arolytics.png',
       animation: 'victory',
     },
     {
       id: 2,
-      name: 'Figma',
-      pos: 'Web Developer',
-      duration: '2020 - 2022',
-      title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-      icon: '/assets/figma.svg',
+      name: 'DigiMaze',
+      pos: 'Full Stack Software Developer',
+      duration: '2022- 2023',
+      title: "At DigiMaze, I helped develop a review referral system to enhance user engagement. I built a dynamic UI with Next.js, React Redux for state management, and MongoDB for data storage. I collaborated with the design team to convert Figma prototypes into responsive React components. On the backend, I developed REST APIs with Java Spring Boot, Node.js microservices with Express.js, and Python Flask. I also integrated GraphQL APIs using Apollo to optimize system performance and scalability.",
+      icon: '/assets/Digimaze.png',
       animation: 'clapping',
     },
     {
       id: 3,
-      name: 'Notion',
-      pos: 'Junior Web Developer',
-      duration: '2019 - 2020',
-      title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-      icon: '/assets/notion.svg',
+      name: 'Infosys',
+      pos: 'Senior Systems Engineer',
+      duration: '2020 - 2022',
+      title: "At Infosys, I developed RESTful APIs with Spring Boot and Oracle database integration using Spring Data JPA, optimizing performance with Oracle Essbase. I managed Angular and React web applications with TypeScript, HTML, CSS, and JavaScript, and maintained Java EE applications using JSP, Servlets, and JDBC. I automated web data extraction with Python and Selenium, improving efficiency. I also streamlined Jenkins CI/CD pipelines, reducing deployment time by 50%, and supported data migration using Informatica MDM and Data Quality ETL for enhanced data accuracy.",
+      icon: '/assets/Infosys.png',
       animation: 'salute',
     },
   ];
