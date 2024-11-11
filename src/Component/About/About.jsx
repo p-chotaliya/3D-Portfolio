@@ -127,7 +127,7 @@ const About = () => {
                     rel="noopener noreferrer"
                   >
                     <img
-                      src="/assets/github.svg"
+                      src="/3D-Portfolio/assets/github.svg"
                       alt="github"
                       className="w-1/2 h-1/2"
                     />
@@ -141,7 +141,7 @@ const About = () => {
                     rel="noopener noreferrer"
                   >
                     <img
-                      src="/assets/LinkedIn.png"
+                      src="/3D-Portfolio/assets/LinkedIn.png"
                       alt="LinkedIn"
                       className="w-1/2 h-1/2"
                     />
@@ -155,7 +155,7 @@ const About = () => {
         <div className="xl:col-span-2 xl:row-span-3">
           <div className="grid-container">
             <img
-              src="assets/grid3.png"
+              src="/3D-Portfolio/assets/grid3.png"
               alt="grid-3"
               className="w-full sm:h-[266px] h-fit object-contain"
             />
@@ -181,7 +181,7 @@ const About = () => {
         <div className="xl:col-span-1 xl:row-span-2">
           <div className="grid-container">
             <img
-              src="assets/grid4.png"
+              src="/3D-Portfolio/assets/grid4.png"
               alt="grid-4"
               className="w-full xl:h-[200px] md:h-[185px] sm:h-[276px] h-fit object-cover sm:object-top"
             />
@@ -193,7 +193,7 @@ const About = () => {
                 onClick={handleCopy}
               >
                 <img
-                  src={hasCopied ? "assets/tick.svg" : "assets/copy.svg"}
+                  src={hasCopied ? "/3D-Portfolio/assets/tick.svg" : "/3D-Portfolio/assets/copy.svg"}
                   alt="copy"
                 />
                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
