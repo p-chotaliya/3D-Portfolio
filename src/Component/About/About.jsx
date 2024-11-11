@@ -111,7 +111,7 @@ const About = () => {
                 I&apos;m based in Toronto, Canada and open to remote work
                 worldwide.
               </p>
-              <a href="#contact" className="w-fit">
+              <a href="#footer" className="w-fit">
                 <Button
                   name="Contact Me"
                   isBeam
