@@ -213,6 +213,15 @@ export const navLinks = [
   export const workExperiences = [
     {
       id: 1,
+      name: 'Ebay Inc',
+      pos: 'Software Developer II',
+      duration: '2024 - Present',
+      title: "Dedicated Software Developer at eBay with expertise in building high-performance distributed systems using Java and Ruby on Rails, consistently delivering seamless and dynamic user interfaces with TypeScript/React while maintaining exceptional code quality through strictly enforced unit, integration, and end-to-end testing frameworks.",
+      icon: '/3D-Portfolio/assets/EBay_logo.svg.png',
+      animation: 'victory',
+    },
+    {
+      id: 3,
       name: 'Arolytics',
       pos: 'Full Stack Software Developer',
       duration: '2023 - 2024',
@@ -221,7 +230,7 @@ export const navLinks = [
       animation: 'victory',
     },
     {
-      id: 2,
+      id: 3,
       name: 'DigiMaze',
       pos: 'Full Stack Software Developer',
       duration: '2022- 2023',
@@ -230,7 +239,7 @@ export const navLinks = [
       animation: 'clapping',
     },
     {
-      id: 3,
+      id: 4,
       name: 'Infosys',
       pos: 'Senior Systems Engineer',
       duration: '2020 - 2022',
